@@ -1,5 +1,5 @@
-# git-travail-de-groupe-site-commun
-## Consignes
+# git-travail-de-groupe-site-commun ouhou anne-laure
+## Consignes (les secrets de php)
 
 Tout va bien
 
