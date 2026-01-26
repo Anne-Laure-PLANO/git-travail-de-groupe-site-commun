@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="fr">
+
+    <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="../../css/style.css">
+
+    <title>Accueil: Agence</title>
+
+    </head>
+
+  <body>
+    
+    <header>
+        
+        <nav class="navbar navbar-expand-lg navbar-expand-md bg-primary fixed-top" data-bs-theme="dark">
+            <div class="container-fluid col-11 col-lg-10 col-xl-9">
+                <a class="navbar-brand" href="../index.html">Brand</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="../index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link active" href="../team.html">Notre équipe</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" aria-current="page" href="../../Magasin_en_ligne/catalogue.html">Catalogue</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="btn btn-secondary text-primary w-100 fw-bold" href="../contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+    
+    <main class="pt-5 mt-5 bg-light">
+        <!-- Bouton toggle pour mobile -->
+        <button class="btn btn-primary d-md-none position-fixed top-0 start-0 m-3 mt-5 pt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar" aria-controls="offcanvasSidebar" style="z-index: 1000;">
+            <i class="bi bi-list"></i>
+        </button>
+
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <!-- Sidebar fixe pour desktop/tablette -->
+                <div class="col-md-4 col-lg-3 d-none d-md-block position-fixed top-0 start-0 bg-primary text-white vh-100 overflow-auto" style="margin-top: 56px;">
+                    <div class="p-4">
+                        <img src="../../assets/img/blank-profile-picture.png" alt="Photo de profil" class="rounded-circle border border-2 border-secondary d-block mx-auto mb-3" width="200" height="200">
+                        
+                        <div class="mt-4">
+                            <h3 class="h5 fw-bold mb-3">Mes informations</h3>
+                            <p class="mb-2"><strong>Mail :</strong><br>
+                                <a href="mailto:jerome.pacaud@le-campus-numerique.fr" class="text-white text-decoration-none small">jerome.pacaud@le-campus-numerique.fr</a>
+                            </p>
+                            <p><strong>Tel :</strong><br>
+                                <a href="tel:0652436097" class="text-white text-decoration-none">0652436097</a>
+                            </p>
+                        </div>
+                        
+                        <hr class="border border-1 opacity-50">
+                        
+                        <div class="mt-4">
+                            <h3 class="h5 fw-bold mb-3">Retrouvez-moi sur les réseaux</h3>
+                            <div class="d-flex justify-content-around mt-3">
+                                <a href="#" class="btn btn-secondary text-primary ratio ratio-1x1" style="width: 60px;" title="Facebook">
+                                    <i class="bi bi-facebook fs-4"></i>
+                                </a>
+                                <a href="#" class="btn btn-secondary text-primary ratio ratio-1x1" style="width: 60px;" title="LinkedIn">
+                                    <i class="bi bi-linkedin fs-4"></i>
+                                </a>
+                                <a href="#" class="btn btn-secondary text-primary ratio ratio-1x1" style="width: 60px;" title="Github">
+                                    <i class="bi bi-github fs-4"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <a href="./hobby.html" class="btn btn-secondary text-primary w-100 mt-4 fw-bold">Mes Hobbies</a>
+                        <a href="./cv-jerome.html" class="btn btn-secondary text-primary w-100 mt-4 fw-bold">Mon CV</a>
+                    </div>
+                </div>
+
+                <!-- Offcanvas pour mobile -->
+                <div class="offcanvas offcanvas-start bg-primary text-white" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasSidebar" aria-labelledby="offcanvasSidebarLabel" style="top: 56px; height: calc(100vh - 56px); width: 80%; max-width: 300px;">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title fw-bold" id="offcanvasSidebarLabel">Menu</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body p-4">
+                        <img src="../../assets/img/blank-profile-picture.png" alt="Photo de profil" class="rounded-circle border border-2 border-secondary d-block mx-auto mb-3" width="150" height="150">
+                    
+                        <div class="mt-4">
+                            <h3 class="h6 fw-bold mb-3">Mes informations</h3>
+                            <p class="mb-2 small"><strong>Mail :</strong><br>
+                                <a href="mailto:jerome.pacaud@le-campus-numerique.fr" class="text-white text-decoration-none">jerome.pacaud@le-campus-numerique.fr</a>
+                            </p>
+                            <p class="small"><strong>Tel :</strong><br>
+                                <a href="tel:0652436097" class="text-white text-decoration-none">0652436097</a>
+                            </p>
+                        </div>
+                        
+                        <hr class="border border-1 border-secondary opacity-50">
+                        
+                        <div class="mt-4">
+                            <h3 class="h6 fw-bold mb-3">Retrouvez-moi sur les réseaux</h3>
+                            <div class="d-flex justify-content-around mt-3">
+                                <a href="#" class="btn btn-secondary text-primary ratio ratio-1x1" style="width: 50px;" title="Facebook">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                                <a href="#" class="btn btn-secondary text-primary ratio ratio-1x1" style="width: 50px;" title="LinkedIn">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                                <a href="#" class="btn btn-secondary text-primary ratio ratio-1x1" style="width: 50px;" title="Github">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <a href="./hobby.html" class="btn btn-secondary text-primary w-100 mt-4 fw-bold">Mes Hobbies</a>
+                        <a href="./cv-jerome.html" class="btn btn-secondary text-primary w-100 mt-4 fw-bold">Mon CV</a>
+                    </div>
+                </div>
+
+                <!-- Contenu principal -->
+
+                <div class="col-12 col-md-8 col-lg-9 offset-md-4 offset-lg-3 px-3">
+                    <h1 class="h1 text-center fw-bold mb-5 text-primary">Mes hobbies</h1>
+                    
+                    <div class="parallax parallax-1">
+                        <div class="parallax-caption">
+                            <h3>Voyager</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                  
+                    <div class="py-5">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum atque similique ut nisi? Ut, reiciendis hic ipsam delectus perferendis expedita, labore, modi minima cum repellat fuga! Veniam laboriosam molestiae perferendis.
+                            Nihil ea, voluptate voluptatum dolores quod minima? Reiciendis iusto unde corporis tenetur repudiandae animi voluptate deleniti aperiam voluptatibus, fuga incidunt dolore iste. Modi voluptas vel impedit suscipit, eos velit nam.
+                            Harum eum dignissimos molestias. Hic debitis maiores, quam expedita quos architecto repellendus eaque rerum minus animi vel doloremque itaque ea eius iusto asperiores illo facilis natus beatae. Repellat, assumenda. Illum!
+                        </p>
+                    </div>
+                  
+                    <div class="parallax parallax-2">
+                        <div class="parallax-caption">
+                            <h3>La lecture</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                  
+                    <div class="py-5">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati iusto, cupiditate consectetur maiores id neque ipsam nostrum. Voluptas laboriosam dignissimos ipsa modi corrupti, quis facere nemo nobis in amet suscipit.
+                            Similique, suscipit labore! Harum cumque accusamus illum? Assumenda, minus id rerum ullam labore velit recusandae ea fugit magnam, incidunt illum modi corporis? Ipsa architecto placeat ab sint nesciunt cum dolor?
+                            Incidunt accusantium sunt quasi molestiae debitis eligendi atque, consequuntur natus asperiores earum ex harum vero illo porro, cumque placeat distinctio vel adipisci! Recusandae sunt iure mollitia fugiat nostrum, fugit dolor.
+                        </p>
+                    </div>
+                  
+                    <div class="parallax parallax-3">
+                        <div class="parallax-caption">
+                            <h3>Le sport</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="py-5">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur alias laudantium, rerum possimus explicabo enim debitis laboriosam iste quas minus, fugiat doloremque tenetur blanditiis sunt consequatur voluptatibus dolor? Soluta, voluptate.
+                            Doloremque nobis fugit voluptates rem suscipit voluptas accusantium asperiores tempora numquam labore? Quidem, eveniet? Excepturi, et omnis! Ipsam, rem quibusdam! Esse placeat pariatur officia enim fugit molestias impedit nam quos.
+                            Omnis tempora recusandae quod laudantium fuga eos voluptatibus ex, voluptates pariatur eum, perferendis, id voluptatem a eligendi. Tempore labore eligendi ut, numquam veritatis fugit nisi, ad explicabo, nihil eveniet maiores.
+                        </p>
+                    </div>
+
+                    <div class="parallax parallax-4">
+                        <div class="parallax-caption">
+                            <h3>Les Jeux Video</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="py-5">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque porro alias dolorum voluptas impedit iure magnam maiores ratione sunt labore numquam, temporibus sequi, dolorem molestiae error harum ullam possimus. Ea?
+                            Provident inventore, quidem incidunt omnis, quibusdam, in earum optio tempora nemo reiciendis quia molestiae reprehenderit rerum delectus illum praesentium qui a hic eligendi sequi veniam. Quae officia facilis nesciunt libero?
+                            Inventore, beatae qui ducimus quia dolorum quam nisi culpa rem et veritatis alias velit voluptas vel ut recusandae magni aspernatur ipsum. Ullam, recusandae sequi! Quibusdam quidem facere facilis autem nisi.
+                        </p>
+                    </div>
+                  
+                </div>
+            </div>    
+        </div>          
+    </main>
+
+    <!-- JS Bootsrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+
+</html>

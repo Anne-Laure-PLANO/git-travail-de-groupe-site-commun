@@ -1,0 +1,150 @@
+/* --------------- Reset --------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* --------------- Variables --------------- */
+
+:root {
+    --bs-primary: #32457A;
+    --bs-primary-rgb: rgb(50, 69, 122);
+    --bs-secondary: #c3d1f7;
+    --bs-body-font-size: 1rem;
+}
+
+/* --------------- Custom Bootstrap --------------- */
+
+.bg-primary {
+    background-color: var(--bs-primary) !important;
+}
+
+.btn-primary {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+}
+
+.btn-outline-primary {
+    color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+}
+
+.btn-outline-primary:hover {
+    color: white !important;
+    border-color: var(--bs-danger) !important;
+    background-color: var(--bs-danger) !important;
+}
+
+.border-primary {
+    border-color: var(--bs-primary) !important;
+}
+  
+.text-primary {
+    color: var(--bs-primary) !important;
+}
+
+.bg-secondary {
+    background-color: var(--bs-secondary) !important;
+}
+
+.btn-secondary {
+    background-color: var(--bs-secondary) !important;
+    border-color: var(--bs-secondary) !important;
+}
+
+.border-secondary {
+    border-color: var(--bs-secondary) !important;
+}
+
+.btn-outline-secondary {
+    color: black;
+    border-color: var(--bs-secondary);
+}
+
+.btn-outline-secondary:hover {
+    color: var(--bs-primary) !important;
+    border: none !important;
+    background-color: var(--bs-secondary) !important;
+}
+
+.btn-check:checked + .btn-outline-secondary {
+    background-color: var(--bs-primary) !important;
+}
+
+.btn-check:checked + .btn-outline-secondary:hover {
+    color: white !important;
+}
+
+.h1 {
+    font-size: 3rem;
+}
+
+/* --------------- Custom CSS --------------- */
+
+.i-main {
+    height: calc(100vh - 40px);
+    width: 100%;
+    margin-top: 40px;
+    position: relative;
+    overflow: hidden;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.bg-video {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -100;
+}
+
+.card img {
+    aspect-ratio: 1.2;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.parallax-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.parallax-caption h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.parallax-caption p {
+    font-size: 1.2rem;
+}
+
+.parallax-1 {
+    background-image: url('../assets/img/hobbies-img/voyage.jpg');
+}
+
+.parallax-2 {
+    background-image: url('../assets/img/hobbies-img/lecture.jpg');
+}
+
+.parallax-3 {
+    background-image: url('../assets/img/hobbies-img/sport.jpg');
+}
+
+.parallax-4 {
+    background-image: url('../assets/img/hobbies-img/jeuxvideo.jpg');
+}
+
