@@ -1,7 +1,8 @@
-# git-travail-de-groupe-site-commun ouhou anne-laure
+# git-travail-de-groupe-site-commun
+Répertoire créé dans l'objectif d'initier un travail de groupe, géré avec Git. Faute de temps, le projet n'a pas pu se concrétiser.
+
 ## Consignes (les secrets de php)
 
-Tout va bien
 
     Créer un dépôt pour le site d’entreprise regroupant les 4 portfolio chez un des développeur
     Partager le dépôt aux 3 autres développeurs
